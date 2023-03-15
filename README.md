@@ -17,9 +17,10 @@ Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene ene
 
 ### Energiedaten
 
-#### Energieverbrauch nach Energieträger 
+Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Energie. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
 
-#### Erneuerbare Elektrizitätsproduktion nach Energieträgern
+- 
+
 
 #### Energiereporter
 
@@ -33,6 +34,14 @@ Der Energie Reporter zeigt die Entwicklungen der Energiewende in den
 Gemeinden des Thurgaus. Der Datensatz zeigt den aktuellen Fortschritt in den 
 ausgewählten Bereichen Elektroautos, Produktion Solarstrom und erneuerbar 
 heizen für jede Gemeinde.
+
+Der aktuelle Datensatz mit der Endung `_latest` enthält den aktuellen Fortschritt aller Gemeinden im Thurgau im CSV-Format.
+
+Der historisierte Datensatz mit der Endung `_historized` enthält monatliche Zeitschnitte seit dem Bestehen von Energie Reporter (1. März 2021) mit dem Fortschritt aller Gemeinden im CSV-Format.
+
+Auf der Seite des [Energiereporter](https://www.energieschweiz.ch/tools/energiereporter/) könnt Ihr die Bedeutung der einzelnen Indikatoren einsehen. Klickt in der Grafik auf der Seite einfach auf die entsprechenden Indikatoren, um Informationen zum genauen Inhalt und zur Berechnung zu bekommen.
+
+Untenstehend findet ihr ausserdem eine Beschreibung der Variablen im Datensatz.
 
 Beschreibung Attribute
 ---------------------------------------------------------------------------
@@ -51,65 +60,31 @@ Beschreibung Attribute
 | renewable_heating_share_last_change | Datum (YYYY-MM-DD) |              | Letzte Änderung der primären Datenquelle (Heizungen aus dem GWR)
 
 
-Indikator: Elektroautos
----------------------------------------------------------------------------
-Der Wert Elektroautos zeigt auf, wie gross der Anteil elektrisch 
-angetriebener Fahrzeuge im Strassenverkehr in Prozent ist.
-
-Für die Erhebung werden alle Personenwagen und Lieferwagen berücksichtigt, 
-welche sich aktuell im Verkehr befinden. Die Fahrzeuge werden über die 
-Postleitzahl und Ortsbezeichnung der Halteradressen einer Gemeinde zugeordnet.
-
-Als Elektroautos gelten alle Fahrzeuge mit einem elektrischen Antrieb, 
-einem elektrischen Antrieb mit Range Extender oder einem 
-Wasserstoff/elektrischen Antrieb. Als Personenwagen sind Fahrzeuge 
-klassifiziert, welche dem Personen-Transport dienen und über höchstens 
-neun Sitzplätze inklusive Fahrerin oder Fahrer verfügen.
-Lieferwagen sind für den Sachentransport konzipiert und haben höchstens ein 
-Gesamtgewicht von 3.5 Tonnen.
-
-Die Daten werden monatlich aktualisiert.
-
-Datenquellen: ASTRA (https://www.astra.admin.ch/astra/de/home.html), 
-swisstopo (https://www.swisstopo.admin.ch/)
-
-
-Indikator: Produktion Solarstrom
----------------------------------------------------------------------------
-Der Wert Produktion Solarstrom zeigt auf, wie viel Prozent des 
-realisierbaren Solar-Potenzials auf Dachflächen bereits für die 
-Stromproduktion mit Photovoltaik (PV) Anlagen genutzt wird.
-
-Der Wert gibt die installierte PV-Leistung im Verhältnis zum wirtschaftlich 
-sowie technisch realisierbaren Potenzial auf Dachflächen in Prozent an.
-
-Die installierte Leistung setzt sich aus allen bestehenden PV-Anlagen 
-zusammen, die im von der Pronovo AG betriebenen schweizerischen 
-Herkunftsnachweissystem registriert sind.
-Die grosse Mehrheit aller PV-Anlagen in der Schweiz ist im 
-Herkunftsnachweissystem registriert.
-Über nicht registrierte Anlagen kann keine Aussage getroffen werden.
-Die PV-Anlagen werden anhand der im Herkunftsnachweissystem registrierten 
-Adresse einer Gemeinde zugewiesen.
-
-Für die Berechnung des wirtschaftlich sowie technisch realisierbaren 
-Potenzials werden die für Solarstrom geeigneten Dachflächen aller Gebäude 
-innerhalb eines Gemeindegebiets verwendet.
-Fassadenflächen werden nicht berücksichtigt. Gebäude, die in mehr als einem 
-Gemeindegebiet liegen, werden anhand der im Gebäude liegenden Adressen den 
-Gemeinden zugeordnet.
-Geeignete Dachflächen sind grösser als 10 Quadratmeter und für die 
-Solarstrom-Produktion mindestens "gut" geeignet, das heisst sie verfügen 
-über eine mittlere jährliche Sonneneinstrahlung von über 1’000 Kilowattstunden 
-pro Quadratmeter. Für die Dachflächen wird ein Belegungsgrad von 70% angenommen 
-(Anteil der Dachfläche, welche mit PV-Modulen belegt werden kann). Es wird 
-weiter ein Modulwirkungsgrad von 17% für die Produktion von PV-Strom verwendet.
-
-Der aktuelle Datensatz mit der Endung `_latest` enthält den aktuellen Fortschritt aller Gemeinden im Thurgau im CSV-Format.
-
-Der historisierte Datensatz mit der Endung `_historized` enthält monatliche Zeitschnitte seit dem Bestehen von Energie Reporter (1. März 2021) mit dem Fortschritt aller Gemeinden im CSV-Format.
-
 ### Wohnungsdaten
+
+Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Leerstand, Neubauten und Wohnungsbestand. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
+
+- [Leerstehende Wohnungen nach Politischer Gemeinde](https://data.tg.ch/explore/dataset/sk-stat-93/information/)
+- [Neu erstellte Wohngebäude nach Gebäudekategorie nach Politischer Gemeinde](https://data.tg.ch/explore/dataset/sk-stat-91/information/)
+- [Neu erstellte Wohnungen nach Anzahl Zimmer nach Politischer Gemeinde](https://data.tg.ch/explore/dataset/sk-stat-92/information/)
+- [Wohnungen nach Gebäudekategorie und Politischer Gemeinde (Bestand) ](https://data.tg.ch/explore/dataset/sk-stat-89/information/)
+- [Wohnungen nach Zimmerzahl und Politischer Gemeinde (Bestand)](https://data.tg.ch/explore/dataset/sk-stat-90/information/)
+
+#### GWS_BFS
+
+**2021_Gebaeude_Energiequelle_Heizung.csv**
+
+Datensatz enthält Daten zur Energiequelle, welche für die Heizung von Wohnungen und Häusern verwendet wird. Dabei werden die Zahlen als Anzahl Wohnungen pro Energieträger, pro Gemeinde angegeben.
+
+**2021_Gebaeude_Energiequelle_Warmwasser.csv**
+
+Datensatz enthält Daten zur Energiequelle, welche zur Erzeugung von Warmwasser verwendet wird. Dabei werden die Zahlen als Anzahl Wohnungen pro Energieträger, pro Gemeinde angegeben.
+
+**2021_Gebeude_Heizsystem_Warmwasser.csv**
+
+Datensatz enthält Daten zur Art des Heizsystems in Wohnungen und Häusern. Dabei werden die Zahlen als Anzahl Wohnung pro Heizsystem, pro Gemeinde angegeben. So kann zum Beispiel ermittelt werden, wie viele Gebäude mit einer Wärmepumpe oder einem Thermischen Solarsystem beheizt werden.
+
+Mehr Infos findet ihr [hier](https://statistik.tg.ch/themen-und-daten/bau-und-wohnen/gebaeude-und-wohnungen/energie-und-wasserversorgung.html/5964)
 
 ### Bevölkerungszahlen
 
