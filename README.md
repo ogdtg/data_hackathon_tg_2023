@@ -12,7 +12,7 @@
     4. [Abstimmungsdaten](#abstimmungsdaten)
     5. [Sonstiges](#sonstiges)
 
-
+---
 ## Challenge
 ### Energiecheck: Wie steht deine Gemeinde da?
 
@@ -27,9 +27,9 @@ Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum 
 **Was stellen wir euch dafür zur Verfügung**
 
 Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene- Daten über unseren Datenkatalog zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet. Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite.
-
+---
 ## Daten
-
+---
 ### Energiedaten
 
 Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Energie. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
@@ -41,7 +41,7 @@ Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr 
 
 Weitere Energiedaten findet ihr auf [data.tg.ch](https://data.tg.ch/explore/?sort=modified&refine.theme=Energie) oder auf [opendata.swiss](https://opendata.swiss/de/dataset/?q=Energie&sort=score%20desc,%20metadata_modified%20desc&organization=bundesamt-fur-energie-bfe&page=1) (nicht alle Daten hier beziehen sich auf den Thurgau.)
 
-
+---
 #### Energiereporter
 
 **solarenergiepotential_tg_gemeinden.csv**
@@ -79,7 +79,7 @@ Untenstehend findet ihr ausserdem eine Beschreibung der Variablen im Datensatz.
 | renewable_heating_share_coverage    | Zahl               | Dezimalbruch | Abdeckung der Heizungsdaten zur Qualitätsabschätzung des Indikators Erneuerbar heizen
 | renewable_heating_share_last_change | Datum (YYYY-MM-DD) |              | Letzte Änderung der primären Datenquelle (Heizungen aus dem GWR)
 
-
+---
 ### Wohnungs- und Gebäudedaten
 
 Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Leerstand, Neubauten und Wohnungsbestand. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
@@ -92,7 +92,7 @@ Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr 
 
 Auf opendata.swiss findet sich ausserdem ein Datensatz zum Thema [Minergie-Häuser pro Gemeinde](https://opendata.swiss/de/dataset/anzahl-minergie-gebaude-in-gemeinden).
 Minergie sorgt für eine Qualitätssicherung in der Planungs-, Bau- und Betriebsphase. Die drei bekannten Gebäudestandards Minergie, Minergie-P und Minergie-A stellen sicher, dass bereits in der Planungsphase höchste Qualität und (Energie-)Effizienz angestrebt wird. Mit dem Zusatz ECO werden zudem die beiden Themen Gesundheit und Bauökologie berücksichtigt. Dieser Datenbestand enthält die Anzahl zertifizierter Minergie-Gebäude pro Gemeinde (BFS-Nr.) aufgeschlüsselt nach den unterschiedlichen Standards.
-
+---
 #### GWS_BFS
 
 **2021_Gebaeude_Energiequelle_Heizung.csv**
@@ -108,11 +108,11 @@ Datensatz enthält Daten zur Energiequelle, welche zur Erzeugung von Warmwasser 
 Datensatz enthält Daten zur Art des Heizsystems in Wohnungen und Häusern. Dabei werden die Zahlen als Anzahl Wohnung pro Heizsystem, pro Gemeinde angegeben. So kann zum Beispiel ermittelt werden, wie viele Gebäude mit einer Wärmepumpe oder einem Thermischen Solarsystem beheizt werden.
 
 Mehr Infos findet ihr [hier](https://statistik.tg.ch/themen-und-daten/bau-und-wohnen/gebaeude-und-wohnungen/energie-und-wasserversorgung.html/5964)
-
+---
 ### Bevölkerungsdaten
 
 Bevölkerungsdaten der Thurgauer Gemeinden in verschiedenen Aufschlüsselungen finden sich auf [hier](https://data.tg.ch/explore/?sort=modified&refine.theme=Bev%C3%B6lkerung).
-
+---
 ### Abstimmungsdaten
 
 Der Ordner `Abstimmungsdaten` enthält zwei Datensätze im csv Format.
@@ -124,7 +124,7 @@ Der Datensatz enthält Daten zum Abstimmungsverhalten innerhalb der Gemeinden f�
 **Eidg_Abst_Ebene_Gemeinden_ab_2000_Umwelt_Energie_Themen.csv**
 
 Der Datensatz ist ein subset `Eidg_Abst_Ebene_Gemeinden_ab_2000.csv` und enthält nur de Abstimmungsvorlagen, welche sich mit den Themen Energie und/oder Umwelt befassen. Die Struktur des Datensatzes entspricht der von `Eidg_Abst_Ebene_Gemeinden_ab_2000.csv`.
-
+---
 ### Sonstiges
 
 - [Stromtankstellen im Thurgau](https://opendata.swiss/de/dataset/ladestationen-fuer-elektroautos)
