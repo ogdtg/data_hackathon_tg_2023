@@ -1,6 +1,6 @@
 # Hackathon Thurgau: Jugendchallenge
-
-Energiecheck: Wie steht deine Gemeinde da?
+## Die Challenge
+### Energiecheck: Wie steht deine Gemeinde da?
 
 **Um was geht es**
 
