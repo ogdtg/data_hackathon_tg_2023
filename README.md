@@ -145,5 +145,5 @@ Der Datensatz ist ein subset `Eidg_Abst_Ebene_Gemeinden_ab_2000.csv` und enthäl
 - [Stromtankstellen im Thurgau](https://opendata.swiss/de/dataset/ladestationen-fuer-elektroautos)
 - [Nachhaltiges Potenzial der nicht-verholzten Biomassenressourcen für Bioenergie in der Schweiz auf Gemeindeebene](https://opendata.swiss/de/dataset/nachhaltiges-potenzial-der-nicht-verholzten-biomassenressourcen-fur-bioenergie-in-der-schweiz-a)
 
-Sämtliche OGD in der Schweiz finden sich auf [opendata.swiss](https://opendata.swiss/de) und/oder [data.tg.ch](https://data.tg.ch/pages/start/)
+Sämtliche OGD in der Schweiz und dem Thurgau finden sich auf [opendata.swiss](https://opendata.swiss/de) und/oder [data.tg.ch](https://data.tg.ch/pages/start/)
 
