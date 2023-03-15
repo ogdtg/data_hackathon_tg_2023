@@ -122,7 +122,7 @@ Mehr Infos findet ihr [hier](https://statistik.tg.ch/themen-und-daten/bau-und-wo
 
 ### Bevölkerungsdaten
 
-Bevölkerungsdaten der Thurgauer Gemeinden in verschiedenen Aufschlüsselungen finden sich auf [hier](https://data.tg.ch/explore/?sort=modified&refine.theme=Bev%C3%B6lkerung).
+Bevölkerungsdaten der Thurgauer Gemeinden in verschiedenen Aufschlüsselungen finden sich [hier](https://data.tg.ch/explore/?sort=modified&refine.theme=Bev%C3%B6lkerung).
 
 ---
 
