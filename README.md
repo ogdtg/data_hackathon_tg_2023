@@ -4,16 +4,13 @@
 # Hackathon Thurgau: Jugendchallenge
 
 # Table of Contents
-[Challenge](##challenge)
-[Daten](#daten)
-  [Energiedaten](#energiedaten)
-  [Wohnungs- und Gebäudedaten](#wohnungs--und-gebäudedaten)
-  [Bevölkerungszahlen]
-  [Abstimmungsdaten]
-  [Sonstiges]
-  
-4. [Third Example](#third-example)
-5. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Challenge](##challenge)
+2. [Daten](#daten)
+  1. [Energiedaten](#energiedaten)
+  2. [Wohnungs- und Gebäudedaten](#wohnungs--und-gebäudedaten)
+  3. [Bevölkerungsdaten](#bevölkerungsdaten)
+  4. [Abstimmungsdaten](#abstimmungsdaten)
+  5. [Sonstiges](#sonstiges)
 
 
 ## Challenge
@@ -112,9 +109,9 @@ Datensatz enthält Daten zur Art des Heizsystems in Wohnungen und Häusern. Dabe
 
 Mehr Infos findet ihr [hier](https://statistik.tg.ch/themen-und-daten/bau-und-wohnen/gebaeude-und-wohnungen/energie-und-wasserversorgung.html/5964)
 
-### Bevölkerungszahlen
+### Bevölkerungsdaten
 
-Bevölkerungszahlen der Thurgauer Gemeinden in verschiedenen Aufschlüsselungen finden sich auf [hier](https://data.tg.ch/explore/?sort=modified&refine.theme=Bev%C3%B6lkerung).
+Bevölkerungsdaten der Thurgauer Gemeinden in verschiedenen Aufschlüsselungen finden sich auf [hier](https://data.tg.ch/explore/?sort=modified&refine.theme=Bev%C3%B6lkerung).
 
 ### Abstimmungsdaten
 
