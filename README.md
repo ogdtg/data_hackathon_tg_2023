@@ -13,3 +13,16 @@ Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum 
 **Was stellen wir euch dafür zur Verfügung**
 
 Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene- Daten über unseren Datenkatalog zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet. Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite.
+
+## Die Daten
+
+### Energiedaten
+
+### Bevölkerungsdaten
+
+### Daten zur politischen Einstellungen
+
+Der Ordner `Abstimmungsdaten` enthält zwei Datensätze im csv Format.
+
+1. Eidg_Abst_Ebene_Gemeinden_ab_2000.csv
+Der Datensatz enthält Daten zum Abstimmungsverhalten innerhalb der Gemeinden für alle eidgenössischen Abstimmungen seit dem Jahr 2000. Im Datensatz enthalten sind dabei Informationen zur Abstimmungsvorlage selbst sowie die absoluten Zahlen der Stimmverteilung innerhalb der Gemeinde. Ausserdem bezeichenen die Variablen `D1E3`,`D2E1`,...,`D3E3` die dem Thema zugeordneten Themen. Datenquelle hierfür ist ![swissvotes](https://swissvotes.ch/page/dataset)
