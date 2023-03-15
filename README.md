@@ -25,4 +25,4 @@ Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene ene
 Der Ordner `Abstimmungsdaten` enthält zwei Datensätze im csv Format.
 
 1. Eidg_Abst_Ebene_Gemeinden_ab_2000.csv
-Der Datensatz enthält Daten zum Abstimmungsverhalten innerhalb der Gemeinden für alle eidgenössischen Abstimmungen seit dem Jahr 2000. Im Datensatz enthalten sind dabei Informationen zur Abstimmungsvorlage selbst sowie die absoluten Zahlen der Stimmverteilung innerhalb der Gemeinde. Ausserdem bezeichenen die Variablen `D1E3`,`D2E1`,...,`D3E3` die dem Thema zugeordneten Themen. Datenquelle hierfür ist ![swissvotes](https://swissvotes.ch/page/dataset)
+Der Datensatz enthält Daten zum Abstimmungsverhalten innerhalb der Gemeinden für alle eidgenössischen Abstimmungen seit dem Jahr 2000. Im Datensatz enthalten sind dabei Informationen zur Abstimmungsvorlage selbst sowie die absoluten Zahlen der Stimmverteilung innerhalb der Gemeinde. Ausserdem bezeichenen die Variablen `D1E3`,`D2E1`,...,`D3E3` die dem Thema zugeordneten Themen. Datenquelle hierfür ist [swissvotes](https://swissvotes.ch/page/dataset)
