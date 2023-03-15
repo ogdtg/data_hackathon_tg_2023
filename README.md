@@ -4,7 +4,7 @@
 # Hackathon Thurgau: Jugendchallenge
 
 # Table of Contents
-1. [Example](## Die Challenge)
+1. [Example](##Die Challenge)
 2. [Example2](#example2)
 4. [Third Example](#third-example)
 5. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
