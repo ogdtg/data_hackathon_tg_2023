@@ -4,13 +4,13 @@
 # Hackathon Thurgau: Jugendchallenge
 
 # Table of Contents
-1. [Die Challenge](##die-challenge)
-2. [Example2](#example2)
+1. [Challenge](##challenge)
+2. [Daten](#daten)
 4. [Third Example](#third-example)
 5. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 
-## Die Challenge
+## Challenge
 ### Energiecheck: Wie steht deine Gemeinde da?
 
 **Um was geht es**
@@ -25,7 +25,7 @@ Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum 
 
 Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene- Daten über unseren Datenkatalog zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet. Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite.
 
-## Die Daten
+## Daten
 
 ### Energiedaten
 
