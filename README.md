@@ -1,5 +1,6 @@
 # Hackathon Thurgau: Jugendchallenge
-## Energiecheck: Wie steht deine Gemeinde da?
+## Die Challenge
+### Energiecheck: Wie steht deine Gemeinde da?
 
 **Um was geht es**
 
@@ -48,8 +49,8 @@ Auf der Seite des [Energiereporter](https://www.energieschweiz.ch/tools/energier
 
 Untenstehend findet ihr ausserdem eine Beschreibung der Variablen im Datensatz.
 
-Beschreibung Attribute
----------------------------------------------------------------------------
+**Beschreibung Attribute**
+
 | Attribut                            | Typ                | Einheit      | Beschreibung
 |-------------------------------------|--------------------|--------------|---------------------------------------------------------------------------------------
 | bfs_nr                              | Integer            |              | Offizielle Gemeinde-ID des Bundesamtes für Statistik (nur für Gemeindedaten)
