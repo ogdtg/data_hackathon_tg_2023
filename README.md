@@ -3,7 +3,7 @@
 
 # Hackathon Thurgau: Jugendchallenge
 
-# Table of Contents
+# Inhalt
 1. [Challenge](##challenge)
 2. [Daten](#daten)
     1. [Energiedaten](#energiedaten)
