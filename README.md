@@ -5,7 +5,7 @@
 
 # Inhalt
 1. [Challenge](##challenge)
-2. [Daten](#daten)
+2. [Daten (Auswahl)](#daten)
     1. [Energiedaten](#energiedaten)
     2. [Gebäude- und Wohnungsstatistik (GWS)](#wohnungs--und-gebäudedaten)
     3. [Bevölkerungsdaten](#bevölkerungsdaten)
