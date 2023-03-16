@@ -7,7 +7,7 @@
 1. [Challenge](##challenge)
 2. [Daten](#daten)
     1. [Energiedaten](#energiedaten)
-    2. [Wohnungs- und Gebäudedaten](#wohnungs--und-gebäudedaten)
+    2. [Wohnungs- und Gebäudedaten (GWS)](#wohnungs--und-gebäudedaten)
     3. [Bevölkerungsdaten](#bevölkerungsdaten)
     4. [Abstimmungsdaten](#abstimmungsdaten)
     5. [Sonstiges](#sonstiges)
