@@ -50,6 +50,8 @@ Weitere Energiedaten findet ihr auf [data.tg.ch](https://data.tg.ch/explore/?sor
 
 #### Energiereporter
 
+Der Ordner `Energiereporter` enthält zwei Datensätze im csv Format.
+
 **solarenergiepotential_tg_gemeinden.csv**
 
 Die interaktive Anwendung [sonnendach.ch](https://www.uvek-gis.admin.ch/BFE/sonnendach/?lang=de) informiert über die Eignung von Hausdächern für die Solarenergienutzung. Auf einfache Weise wird vermittelt, wieviel Solarstrom oder Solarwärme mit einem Hausdach produziert werden könnte. Für die Gemeinden berechnet das Bundesamt für Energie BFE auf der Grundlage der Solarpotenziale der einzelnen Hausdächer, wie gross die Potenziale für Solarstrom und Solarwärme für das gesamte Gemeindegebiet sind. Zwei Szenarien werden berechnet: Im ersten Szenario werden alle Dächer nur für Solarstrom verwendet. Im zweiten Szenario wird pro Haus das beste Dachstück für Solarwärme und der Rest für Solarstrom verwendet.
@@ -103,6 +105,8 @@ Minergie sorgt für eine Qualitätssicherung in der Planungs-, Bau- und Betriebs
 ---
 
 #### GWS_BFS
+
+Der Ordner `GWS_BFS` enthält zwei Datensätze im csv Format.
 
 **2021_Gebaeude_Energiequelle_Heizung.csv**
 
