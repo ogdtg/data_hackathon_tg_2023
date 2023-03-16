@@ -19,15 +19,15 @@
 
 **Um was geht es?**
 
-Energie, Energie und nochmal Energie. Diesem Thema kann man derzeit kaum aus dem Weg gehen. Doch wie sieht es eigentlich bei euch vor der Haustür aus? Welche Gemeinde könnte unter einer drohenden Energieknappheit besonders leiden? Wo wird am meisten Energie verbraucht und wer ist in puncto erneuerbare Energien ganz vorne? Diese und andere Fragen sollen in unserer Challenge beantwortet werden
+Energie, Energie und nochmal Energie. Diesem Thema kann man kaum aus dem Weg gehen, sei es aufgrund der Klimafrage oder der Szenarien einer Energiekrise. Doch wie sieht es eigentlich bei euch vor der Haustür aus? Welche Gemeinde könnte unter einer drohenden Energieknappheit besonders leiden? Wo wird am meisten Energie verbraucht und wer ist in puncto erneuerbare Energien ganz vorne? Diese und andere Fragen sollen in unserer Challenge beantwortet werden.
 
 **Die Challenge**
 
-Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum Verbrauch. Doch ist es für den Laien relativ schwierig irgendwelche Schlüsse aus staubtrockenen Tabellen zu ziehen. In dieser Challenge soll es deshalb darum gehen die vorliegenden Daten originell zu visualisieren. Ziel soll es sein, dass jede/r Bürger/in in der Lage ist, zu erkennen, wo die eigene Gemeinde im Thurgauer Vergleich steht. Dabei sollen verschiedene Faktoren aus dem Bereich Energie miteinbezogen werden. Bei der Visualisierung könnt ihr eurer Kreativität freien Lauf lassen.
+Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum Verbrauch. Doch ist es für den Laien relativ schwierig, irgendwelche Schlüsse aus staubtrockenen Tabellen zu ziehen. In dieser Challenge soll es deshalb darum gehen, die vorliegenden Daten originell zu visualisieren. Ziel soll es sein, dass jede/r Bürger/in in der Lage ist, zu erkennen, wo die eigene Gemeinde im Thurgauer Vergleich steht. Dabei sollen verschiedene Faktoren aus dem Bereich Energie miteinbezogen werden, ergänzt um weitere Indikatoren zur Gemeinde. Bei der Visualisierung und auch dabei, wie breit ihr das Energiethema fassen möchtet, könnt ihr eurer Kreativität freien Lauf lassen.
 
 **Was stellen wir euch dafür zur Verfügung?**
 
-Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene- Daten über unseren Datenkatalog zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet. Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite.
+Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene- Daten über unseren Datenkatalog zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet (siehe Files oben und Beschreibungen unten). Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite - vor Ort, via github oder Slack.
 
 ---
 
@@ -37,7 +37,7 @@ Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene ene
 
 ### Energiedaten
 
-Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Energie. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
+Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr mehrere Datensätze zu Energie, die vom Amt für Energie zusammengetragen werden. Alle Daten können als `csv`, `xlsx` oder JSON heruntergeladen werden:
 
 - [Endenergieverbrauch im Gebäudebereich nach Energieträgern und Gemeinden](https://data.tg.ch/explore/dataset/div-energie-5/information/)
 - [Erneuerbare Elektrizitätsproduktion nach Energieträgern und Gemeinden](https://data.tg.ch/explore/dataset/div-energie-10/information/)
@@ -46,19 +46,18 @@ Auf unserem Dateportal [data.tg.ch](https://data.tg.ch/pages/start/) findet ihr 
 
 Weitere Energiedaten findet ihr auf [data.tg.ch](https://data.tg.ch/explore/?sort=modified&refine.theme=Energie) oder auf [opendata.swiss](https://opendata.swiss/de/dataset/?q=Energie&sort=score%20desc,%20metadata_modified%20desc&organization=bundesamt-fur-energie-bfe&page=1) (nicht alle Daten hier beziehen sich auf den Thurgau.)
 
+Hinweis zum Datenstand: Die Daten zum Energieverbrauch, der Elektrizitätsproduktion wie den Emissionen reichen von 2015 bis 2020 und sollten demnächst um die Daten aus dem Jahr 2021 ergänzt werden. Format und Struktur bleiben gleich, damit euer Tool die aktuellen Daten analog zu den bisherigen abbilden kann, sobald diese zur Verfügung stehen.
+
 ---
 
-#### Energiereporter
+#### Energie Reporter und Solarpotential - Energiezukunft in den Gemeinden
 
-Der Ordner [Energiereporter](https://github.com/ogdtg/data_hackathon_tg_2023/tree/main/Energiereporter) enthält folgende Datensätze im csv Format.
-
-**solarenergiepotential_tg_gemeinden.csv**
-
-Die interaktive Anwendung [sonnendach.ch](https://www.uvek-gis.admin.ch/BFE/sonnendach/?lang=de) informiert über die Eignung von Hausdächern für die Solarenergienutzung. Auf einfache Weise wird vermittelt, wieviel Solarstrom oder Solarwärme mit einem Hausdach produziert werden könnte. Für die Gemeinden berechnet das Bundesamt für Energie BFE auf der Grundlage der Solarpotenziale der einzelnen Hausdächer, wie gross die Potenziale für Solarstrom und Solarwärme für das gesamte Gemeindegebiet sind. Zwei Szenarien werden berechnet: Im ersten Szenario werden alle Dächer nur für Solarstrom verwendet. Im zweiten Szenario wird pro Haus das beste Dachstück für Solarwärme und der Rest für Solarstrom verwendet.
+Der Energie Reporter von Energie Schweiz sammelt verschiedene Daten rund um das Thema Energiezukunft. Wir haben euch die Datensätze gefiltert nach den Thurgauer Gemeinden hier auf github zusammengestellt. 
+Der entsprechende Ordner [Energiereporter](https://github.com/ogdtg/data_hackathon_tg_2023/tree/main/Energiereporter) enthält folgende Datensätze im csv-Format:
 
 **energyreporter_municipality.csv**
 
-Der Energie Reporter zeigt die Entwicklungen der Energiewende in den 
+Der [Energie Reporter](https://www.energieschweiz.ch/tools/energiereporter/) zeigt die Entwicklungen der Energiewende in den 
 Gemeinden des Thurgaus. Der Datensatz zeigt den aktuellen Fortschritt in den 
 ausgewählten Bereichen Elektroautos, Produktion Solarstrom und erneuerbar 
 heizen für jede Gemeinde.
@@ -67,7 +66,7 @@ Der aktuelle Datensatz mit der Endung `_latest` enthält den aktuellen Fortschri
 
 Der historisierte Datensatz mit der Endung `_historized` enthält monatliche Zeitschnitte seit dem Bestehen von Energie Reporter (1. März 2021) mit dem Fortschritt aller Gemeinden im CSV-Format.
 
-Auf der Seite des [Energiereporter](https://www.energieschweiz.ch/tools/energiereporter/) könnt Ihr die Bedeutung der einzelnen Indikatoren einsehen. Klickt in der Grafik auf der Seite einfach auf die entsprechenden Indikatoren, um Informationen zum genauen Inhalt und zur Berechnung zu bekommen.
+Auf der Seite des [Energie Reporter](https://www.energieschweiz.ch/tools/energiereporter/) könnt Ihr die Bedeutung der einzelnen Indikatoren einsehen. Klickt in der Grafik auf der Seite einfach auf die entsprechenden Indikatoren, um Informationen zum genauen Inhalt und zur Berechnung zu bekommen.
 
 Untenstehend findet ihr ausserdem eine Beschreibung der Variablen im Datensatz.
 
@@ -87,7 +86,13 @@ Untenstehend findet ihr ausserdem eine Beschreibung der Variablen im Datensatz.
 | renewable_heating_share_coverage    | Zahl               | Dezimalbruch | Abdeckung der Heizungsdaten zur Qualitätsabschätzung des Indikators Erneuerbar heizen
 | renewable_heating_share_last_change | Datum (YYYY-MM-DD) |              | Letzte Änderung der primären Datenquelle (Heizungen aus dem GWR)
 
+
+**solarenergiepotential_tg_gemeinden.csv**
+
+Die interaktive Anwendung [sonnendach.ch](https://www.uvek-gis.admin.ch/BFE/sonnendach/?lang=de) informiert über die Eignung von Hausdächern für die Solarenergienutzung. Auf einfache Weise wird vermittelt, wieviel Solarstrom oder Solarwärme mit einem Hausdach produziert werden könnte. Für die Gemeinden berechnet das Bundesamt für Energie BFE auf der Grundlage der Solarpotenziale der einzelnen Hausdächer, wie gross die Potenziale für Solarstrom und Solarwärme für das gesamte Gemeindegebiet sind. Zwei Szenarien werden berechnet: Im ersten Szenario werden alle Dächer nur für Solarstrom verwendet. Im zweiten Szenario wird pro Haus das beste Dachstück für Solarwärme und der Rest für Solarstrom verwendet.
+
 ---
+
 
 ### Wohnungs- und Gebäudedaten
 
