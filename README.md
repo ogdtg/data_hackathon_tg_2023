@@ -29,6 +29,9 @@ Die Thurgauer Gemeinden liefern regelmässig Daten zur Energieerzeugung und zum 
 
 Wir von der OGD-Koordinationsstelle des Kantons Thurgau stellen verschiedene energiebezogene Daten über unseren [Datenkatalog](https://data.tg.ch) zur Verfügung und zeigen euch, wo ihr weitere Daten und Infos findet (siehe Files oben und Beschreibungen unten). Solltet ihr Verständnisfragen zu den Daten selbst haben oder Unterstützung bei der Visualisierung oder Datenanalyse benötigen, stehen wir euch gern mit Rat und Tat zur Seite - vor Ort, via github oder Slack.
 
+** Ein paar Hints & Tricks gefällig**
+Das KSR-Talenta-Team hat [hier ein kleines Tutorial](https://github.com/tkilla77/ksr_talit_hackathon) zur Visualisierung und zur Arbeit mit (geo)pandas zusammengestellt. Das Repo enthält auch eine Sammlung der Geometrien der Schweizer Gemeinden und Kantone...
+
 ---
 
 ## Daten
